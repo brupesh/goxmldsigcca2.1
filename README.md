@@ -76,10 +76,8 @@ func validate(root *x509.Certificate, el *etree.Element) {
     println(str)
 }
 ```
-
-## Limitations
-
-This library was created in order to [implement SAML 2.0](https://github.com/russellhaering/gosaml2)
+Reference for this library is taken from (https://github.com/russellhaering/goxmldsig.git)
+This library was created in order to [implement CCA 2.1 API] 
 without needing to execute a command line tool to create and validate signatures. It currently
 only implements the subset of relevant standards needed to support that implementation, but
 I hope to make it more complete over time. Contributions are welcome.
